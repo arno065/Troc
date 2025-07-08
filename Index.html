@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Grand Troc - De l'Objet Simple au Rêve</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 900px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .image-section {
+            margin: 30px 0;
+        }
+        .current-item-image {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #3498db;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            /* XXL effect */
+            width: 100%; /* Makes it fill the container width */
+            max-height: 600px; /* Limits height to maintain aspect ratio on very wide screens */
+            object-fit: contain; /* Ensures the whole image is visible */
+        }
+        .call-to-action {
+            background-color: #3498db;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .call-to-action:hover {
+            background-color: #2980b9;
+        }
+        .goal-amount {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-top: 25px;
+            padding: 10px;
+            border: 2px dashed #e74c3c;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Le Grand Troc : De l'Objet Simple au Rêve !</h1>
+        <p>Bienvenue sur notre plateforme de troc unique ! Notre mission est de partir d'un objet modeste et, par une série d'échanges ingénieux, d'atteindre un objectif de valeur incroyable. Chaque troc nous rapproche de notre but ultime !</p>
+
+        <div class="image-section">
+            <h2>Objet Actuel à Troquer :</h2>
+            <img src="https://via.placeholder.com/1200x800?text=Notre+objet+actuel+%C3%A0+troquer" alt="Objet actuel à troquer" class="current-item-image">
+            <p style="font-style: italic; margin-top: 15px;">(Image de l'objet que nous possédons actuellement et que nous souhaitons échanger)</p>
+        </div>
+
+        <p>Nous avons commencé avec un simple... (imaginez un petit objet ici, ex: "trombone rouge"). Grâce à la générosité et la créativité de notre communauté, nous avons déjà effectué plusieurs échanges !</p>
+
+        <div class="goal-amount">
+            Notre Objectif Ultime : Atteindre une valeur de <br> <strong>1 000 000 €</strong> !
+        </div>
+
+        <p>Avez-vous un objet de plus grande valeur à proposer en échange de celui-ci ? Chaque proposition nous aide à progresser vers notre rêve !</p>
+
+        <a href="#" class="call-to-action">Proposer un Troc !</a>
+        <p style="font-size: 0.9em; margin-top: 10px;">(Ce lien est un exemple, il mènerait vers un formulaire de contact ou une page d'explication des règles du troc)</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Le Grand Troc. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
